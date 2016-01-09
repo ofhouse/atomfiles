@@ -1,0 +1,3 @@
+# Atom Editor Config
+
+to be continued....

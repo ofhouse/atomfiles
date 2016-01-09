@@ -1,0 +1,11 @@
+"*":
+  "exception-reporting":
+    userId: "1f14f259-80ca-d578-acfe-03de8cfc7d58"
+  welcome:
+    showOnStartup: false
+  editor:
+    invisibles: {}
+  "autocomplete-plus":
+    minimumWordLength: 1
+  "git-plus": {}
+  core: {}
