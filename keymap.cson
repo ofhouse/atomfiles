@@ -29,3 +29,9 @@
 'atom-text-editor':
   'cmd-up': 'editor:move-line-up'
   'cmd-down': 'editor:move-line-down'
+
+'.platform-darwin atom-text-editor':
+    'cmd-i': 'editor:auto-indent'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+    'ctrl-i': 'editor:auto-indent'
