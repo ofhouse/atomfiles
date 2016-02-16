@@ -27,7 +27,7 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 'atom-text-editor':
-  'cmd-up': 'editor:move-line-up'
+  'cmd-up'  : 'editor:move-line-up'
   'cmd-down': 'editor:move-line-down'
 
 '.platform-darwin atom-text-editor':
@@ -35,3 +35,7 @@
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
     'ctrl-i': 'editor:auto-indent'
+
+'body':
+  'cmd-tab': 'pane:show-next-item'
+  'cmd-shift-tab': 'pane:show-previous-item'
