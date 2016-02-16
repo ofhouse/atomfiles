@@ -4,10 +4,16 @@
     minimumWordLength: 1
   core: {}
   editor:
+    fontSize: 15
     invisibles: {}
   "exception-reporting":
     userId: "1f14f259-80ca-d578-acfe-03de8cfc7d58"
   "git-plus": {}
+  "keyboard-localization": {}
   linter: {}
+  "linter-eslint": {}
   welcome:
     showOnStartup: false
+".ini.source":
+  editor:
+    showIndentGuide: false
