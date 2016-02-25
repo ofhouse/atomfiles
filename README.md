@@ -12,6 +12,7 @@ to be continued....
   Iam used to write with a German keyboard layout ;-)
 * [linter](https://atom.io/packages/linter)
   * [linter-eslint](https://atom.io/packages/linter-eslint)
+* [tab-switcher](https://atom.io/packages/tab-switcher)
 
 
     $ apm install \

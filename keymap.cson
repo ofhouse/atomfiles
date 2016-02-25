@@ -26,16 +26,21 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+# OSX stuff
+'atom-workspace':
+  'cmd-tab'       : 'tab-switcher:next'
+  'cmd-shift-tab' : 'pane:show-previous-item'
+
 'atom-text-editor':
-  'cmd-up'  : 'editor:move-line-up'
-  'cmd-down': 'editor:move-line-down'
+  'cmd-up'        : 'editor:move-line-up'
+  'cmd-down'      : 'editor:move-line-down'
 
 '.platform-darwin atom-text-editor':
-    'cmd-i': 'editor:auto-indent'
+  'cmd-i'         : 'editor:auto-indent'
+
+# Windows / Linux stuff
+'.platform-win32 atom-text-editor, .platform-linux atom-workspace':
+  'ctrl-tab'      : 'tab-switcher:next'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-    'ctrl-i': 'editor:auto-indent'
-
-'body':
-  'cmd-tab': 'pane:show-next-item'
-  'cmd-shift-tab': 'pane:show-previous-item'
+  'ctrl-i'        : 'editor:auto-indent'

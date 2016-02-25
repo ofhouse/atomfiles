@@ -2,7 +2,10 @@
   "autoclose-html": {}
   "autocomplete-plus":
     minimumWordLength: 1
-  core: {}
+  core:
+    packagesWithKeymapsDisabled: [
+      "tab-switcher"
+    ]
   editor:
     fontSize: 15
     invisibles: {}
@@ -12,6 +15,7 @@
   "keyboard-localization": {}
   linter: {}
   "linter-eslint": {}
+  "tab-switcher": {}
   welcome:
     showOnStartup: false
 ".ini.source":
