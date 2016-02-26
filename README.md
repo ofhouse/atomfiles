@@ -15,6 +15,7 @@ to be continued....
 * [tab-switcher](https://atom.io/packages/tab-switcher)
 
 
+```sh
     $ apm install \
       autoclose-html \
       color-picker \
@@ -22,4 +23,6 @@ to be continued....
       git-plus \
       keyboard-localization \
       linter \
-      linter-eslint
+      linter-eslint \
+      tab-switcher
+```
