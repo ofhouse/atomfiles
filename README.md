@@ -1,6 +1,9 @@
 # Atom Editor Config
 
-to be continued....
+Since Iam using [atom](https://atom.io) for pretty everything I code, I want to
+share my config over all devices / OS (Windows, Linux, Mac) Iam using atom with.
+
+Feel free to copy & share if you like it or found something useful :)
 
 ## Installed Atom plugins
 
@@ -12,17 +15,19 @@ to be continued....
   Iam used to write with a German keyboard layout ;-)
 * [linter](https://atom.io/packages/linter)
   * [linter-eslint](https://atom.io/packages/linter-eslint)
+  * [linter-js-standard](https://atom.io/packages/linter-js-standard)
 * [tab-switcher](https://atom.io/packages/tab-switcher)
 
 
 ```sh
-    $ apm install \
-      autoclose-html \
-      color-picker \
-      editorconfig \
-      git-plus \
-      keyboard-localization \
-      linter \
-      linter-eslint \
-      tab-switcher
+$ apm install \
+  autoclose-html \
+  color-picker \
+  editorconfig \
+  git-plus \
+  keyboard-localization \
+  linter \
+  linter-eslint \
+  tab-switcher \
+  linter-js-standard
 ```
