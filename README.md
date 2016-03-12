@@ -15,7 +15,6 @@ Feel free to copy & share if you like it or found something useful :)
   Iam used to write with a German keyboard layout ;-)
 * [linter](https://atom.io/packages/linter)
   * [linter-eslint](https://atom.io/packages/linter-eslint)
-  * [linter-js-standard](https://atom.io/packages/linter-js-standard)
 * [tab-switcher](https://atom.io/packages/tab-switcher)
 
 
@@ -28,6 +27,13 @@ $ apm install \
   keyboard-localization \
   linter \
   linter-eslint \
-  tab-switcher \
-  linter-js-standard
+  tab-switcher
 ```
+
+## Styleguides
+
+Iam a big fan of "convention over configuration", so here I list some best
+practice styleguides for good & happy coding:
+
+* Javascript
+  * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
