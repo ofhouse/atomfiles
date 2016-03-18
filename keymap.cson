@@ -35,9 +35,23 @@
   'cmd-up'        : 'editor:move-line-up'
   'cmd-down'      : 'editor:move-line-down'
 
+# OS X Stuff
+'.platform-darwin':
+
+  # Move the current pane item to the target split pane
+  'cmd-ctrl-shift-left':  'window:move-active-item-to-pane-on-left'
+  'cmd-ctrl-shift-right': 'window:move-active-item-to-pane-on-right'
+
 '.platform-darwin atom-text-editor':
-  'cmd-i'         : 'editor:auto-indent'
+  'cmd-i': 'editor:auto-indent'
+  'cmd-#': 'editor:toggle-line-comments'
 
 # Windows / Linux stuff
+'.platform-win32, .platform-linux':
+
+  # Move the current pane item to the target split pane
+  'alt-ctrl-shift-left':  'window:move-active-item-to-pane-on-left'
+  'alt-ctrl-shift-right': 'window:move-active-item-to-pane-on-right'
+
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-i'        : 'editor:auto-indent'
