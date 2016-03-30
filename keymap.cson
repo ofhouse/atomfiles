@@ -40,7 +40,7 @@
 
   # Move the current pane item to the target split pane
   'cmd-ctrl-shift-left':  'window:move-active-item-to-pane-on-left'
-  'cmd-ctrl-shift-right': 'window:move-active-item-to-pane-on-right'
+  'cmd-ctrl-shift-right': 'pane:split-right-and-move-active-item'
 
 '.platform-darwin atom-text-editor':
   'cmd-i': 'editor:auto-indent'
@@ -51,7 +51,7 @@
 
   # Move the current pane item to the target split pane
   'alt-ctrl-shift-left':  'window:move-active-item-to-pane-on-left'
-  'alt-ctrl-shift-right': 'window:move-active-item-to-pane-on-right'
+  'alt-ctrl-shift-right': 'pane:split-right-and-move-active-item'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-i'        : 'editor:auto-indent'
