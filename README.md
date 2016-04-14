@@ -15,7 +15,6 @@ Feel free to copy & share if you like it or found something useful :)
   Iam used to write with a German keyboard layout ;-)
 * [linter](https://atom.io/packages/linter)
   * [linter-eslint](https://atom.io/packages/linter-eslint)
-* [tab-switcher](https://atom.io/packages/tab-switcher)
 
 
 ```sh
@@ -26,8 +25,7 @@ $ apm install \
   git-plus \
   keyboard-localization \
   linter \
-  linter-eslint \
-  tab-switcher
+  linter-eslint
 ```
 
 ## Styleguides
