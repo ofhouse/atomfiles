@@ -1,10 +1,22 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "3c194982-d5eb-4fa7-abe2-243ba297b9bf"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    js:
+      end_with_comma: true
+      end_with_newline: true
+      indent_size: 2
+      space_after_anon_function: true
+    markdown:
+      default_beautifier: "Remark"
   "autoclose-html": {}
   "autocomplete-plus":
     minimumWordLength: 1
   core:
     packagesWithKeymapsDisabled: [
-      "tab-switcher"
+      "atom-beautify"
     ]
   editor:
     fontSize: 15
@@ -14,9 +26,8 @@
   "git-plus": {}
   "keyboard-localization": {}
   linter:
-    errorPanelHeight: 26
+    errorPanelHeight: 100
   "linter-eslint": {}
-  "tab-switcher": {}
   welcome:
     showOnStartup: false
 ".ini.source":

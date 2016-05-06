@@ -39,7 +39,7 @@
   'cmd-ctrl-shift-right': 'pane:split-right-and-move-active-item'
 
 '.platform-darwin atom-text-editor':
-  'cmd-i': 'editor:auto-indent'
+  'cmd-i': 'atom-beautify:beautify-editor'
   'cmd-#': 'editor:toggle-line-comments'
 
 # Windows / Linux stuff
@@ -50,4 +50,4 @@
   'alt-ctrl-shift-right': 'pane:split-right-and-move-active-item'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'ctrl-i'        : 'editor:auto-indent'
+  'ctrl-i'        : 'atom-beautify:beautify-editor'

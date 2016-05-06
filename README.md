@@ -7,21 +7,20 @@ Feel free to copy & share if you like it or found something useful :)
 
 ## Installed Atom plugins
 
-* [autoclose-html](https://atom.io/packages/autoclose-html)
-* [color-picker](https://atom.io/packages/color-picker)
-* [editorconfig](https://atom.io/packages/editorconfig)
-* [git-plus](https://atom.io/packages/git-plus)
-* [keyboard-localization](https://atom.io/packages/keyboard-localization)
-  Iam used to write with a German keyboard layout ;-)
-* [linter](https://atom.io/packages/linter)
-  * [linter-eslint](https://atom.io/packages/linter-eslint)
-
+-   [atom-beautify](https://atom.io/packages/atom-beautify)
+-   [autoclose-html](https://atom.io/packages/autoclose-html)
+-   [color-picker](https://atom.io/packages/color-picker)
+-   [git-plus](https://atom.io/packages/git-plus)
+-   [keyboard-localization](https://atom.io/packages/keyboard-localization)
+    Iam used to write with a German keyboard layout ;-)
+-   [linter](https://atom.io/packages/linter)
+    -   [linter-eslint](https://atom.io/packages/linter-eslint)
 
 ```sh
 $ apm install \
+  atom-beautify \
   autoclose-html \
   color-picker \
-  editorconfig \
   git-plus \
   keyboard-localization \
   linter \
@@ -33,5 +32,5 @@ $ apm install \
 Iam a big fan of "convention over configuration", so here I list some best
 practice styleguides for good & happy coding:
 
-* Javascript
-  * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+-   Javascript
+    -   [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
