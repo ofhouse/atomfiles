@@ -15,6 +15,7 @@ Feel free to copy & share if you like it or found something useful :)
     Iam used to write with a German keyboard layout ;-)
 -   [linter](https://atom.io/packages/linter)
     -   [linter-eslint](https://atom.io/packages/linter-eslint)
+-   [react](https://atom.io/packages/react)
 
 ```sh
 $ apm install \
@@ -24,7 +25,8 @@ $ apm install \
   git-plus \
   keyboard-localization \
   linter \
-  linter-eslint
+  linter-eslint \
+  react
 ```
 
 ## Styleguides

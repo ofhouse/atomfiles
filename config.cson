@@ -5,14 +5,18 @@
       analytics: false
       beautifyEntireFileOnSave: false
     js:
+      default_beautifier: "JSCS Fixer"
+      disabled: true
       end_with_comma: true
       end_with_newline: true
       indent_size: 2
       space_after_anon_function: true
+      wrap_line_length: 80
     markdown:
       default_beautifier: "Remark"
   "autoclose-html": {}
   "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
     minimumWordLength: 1
   core:
     packagesWithKeymapsDisabled: [
@@ -25,9 +29,14 @@
     userId: "1f14f259-80ca-d578-acfe-03de8cfc7d58"
   "git-plus": {}
   "keyboard-localization": {}
+  "line-ending-selector":
+    defaultLineEnding: "LF"
   linter:
     errorPanelHeight: 100
-  "linter-eslint": {}
+  "linter-eslint":
+    fixOnSave: true
+  react:
+    enabledForAllJavascriptFiles: true
   welcome:
     showOnStartup: false
 ".ini.source":
