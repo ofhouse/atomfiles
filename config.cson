@@ -25,6 +25,10 @@
   editor:
     fontSize: 15
     invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
   "exception-reporting":
     userId: "1f14f259-80ca-d578-acfe-03de8cfc7d58"
   "git-plus": {}
