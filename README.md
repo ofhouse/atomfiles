@@ -1,31 +1,37 @@
 # Atom Editor Config
 
-Since Iam using [atom](https://atom.io) for pretty everything I code, I want to
-share my config over all devices / OS (Windows, Linux, Mac) Iam using atom with.
+Since I am using [atom](https://atom.io) for pretty everything I code, I want to
+share my configuration over all devices / OS (Windows, Linux, Mac) I am using atom with.
 
 Feel free to copy & share if you like it or found something useful :)
 
 ## Installed Atom plugins
 
--   [atom-beautify](https://atom.io/packages/atom-beautify)
 -   [autoclose-html](https://atom.io/packages/autoclose-html)
 -   [color-picker](https://atom.io/packages/color-picker)
 -   [git-plus](https://atom.io/packages/git-plus)
+-   [highlight-selected](https://atom.io/packages/highlight-selected)
 -   [keyboard-localization](https://atom.io/packages/keyboard-localization)
     Iam used to write with a German keyboard layout ;-)
 -   [linter](https://atom.io/packages/linter)
     -   [linter-eslint](https://atom.io/packages/linter-eslint)
+-   [minimap](https://atom.io/packages/minimap)
+    -   [minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected)
+-   [project-manager](https://atom.io/packages/project-manager)
 -   [react](https://atom.io/packages/react)
 
 ```sh
 $ apm install \
-  atom-beautify \
   autoclose-html \
   color-picker \
   git-plus \
+  highlight-selected \
   keyboard-localization \
   linter \
   linter-eslint \
+  minimap \
+  minimap-highlight-selected \
+  project-manager \
   react
 ```
 
@@ -36,3 +42,5 @@ practice styleguides for good & happy coding:
 
 -   Javascript
     -   [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+-   SASS / CSS
+    -   [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)

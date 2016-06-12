@@ -6,3 +6,4 @@ blob-store
 .apm
 .npm
 .node-gyp
+projects.cson

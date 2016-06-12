@@ -1,27 +1,8 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "3c194982-d5eb-4fa7-abe2-243ba297b9bf"
-      analytics: false
-      beautifyEntireFileOnSave: false
-    js:
-      default_beautifier: "JSCS Fixer"
-      disabled: true
-      end_with_comma: true
-      end_with_newline: true
-      indent_size: 2
-      space_after_anon_function: true
-      wrap_line_length: 80
-    markdown:
-      default_beautifier: "Remark"
   "autoclose-html": {}
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
     minimumWordLength: 1
-  core:
-    packagesWithKeymapsDisabled: [
-      "atom-beautify"
-    ]
   editor:
     fontSize: 15
     invisibles: {}
