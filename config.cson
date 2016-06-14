@@ -20,6 +20,11 @@
     errorPanelHeight: 100
   "linter-eslint":
     fixOnSave: true
+  minimap:
+    absoluteMode: true
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   react:
     enabledForAllJavascriptFiles: true
   welcome:
