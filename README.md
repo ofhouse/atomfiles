@@ -15,6 +15,7 @@ Feel free to copy & share if you like it or found something useful :)
     Iam used to write with a German keyboard layout ;-)
 -   [linter](https://atom.io/packages/linter)
     -   [linter-eslint](https://atom.io/packages/linter-eslint)
+    -   [linter-stylelint](https://atom.io/packages/linter-stylelint)
 -   [minimap](https://atom.io/packages/minimap)
     -   [minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected)
 -   [project-manager](https://atom.io/packages/project-manager)
@@ -29,6 +30,7 @@ $ apm install \
   keyboard-localization \
   linter \
   linter-eslint \
+  linter-stylelint \
   minimap \
   minimap-highlight-selected \
   project-manager \
