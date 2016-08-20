@@ -9,6 +9,7 @@ Feel free to copy & share if you like it or found something useful :)
 
 -   [autoclose-html](https://atom.io/packages/autoclose-html)
 -   [color-picker](https://atom.io/packages/color-picker)
+-   [git-blame](https://atom.io/packages/git-blame)
 -   [git-plus](https://atom.io/packages/git-plus)
 -   [highlight-selected](https://atom.io/packages/highlight-selected)
 -   [keyboard-localization](https://atom.io/packages/keyboard-localization)
@@ -25,6 +26,7 @@ Feel free to copy & share if you like it or found something useful :)
 $ apm install \
   autoclose-html \
   color-picker \
+  git-blame \
   git-plus \
   highlight-selected \
   keyboard-localization \
